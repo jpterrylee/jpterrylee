@@ -17,20 +17,17 @@ First run:  [bundle install]
 - docker-compose run web bundle install
 
 Install yarn: [yarn install]
-- Please run `yarn install --check-files` to update.と言われたら
-
-docker-compose run --rm web yarn install --check-files
+"Please run `yarn install --check-files` to update. と言われたら"
+- docker-compose run --rm web yarn install --check-files
 
 ###  最初のセットアップ
-docker-compose build
-
-docker-compose run --rm web bin/setup
+- docker-compose build
+- docker-compose run --rm web bin/setup
 
 
 ### もしtestDBがない場合は
-docker-compose run --rm web bin/rails db:create RAILS_ENV=test
-
-docker-compose run --rm web bin/rails db:migrate RAILS_ENV=test
+- docker-compose run --rm web bin/rails db:create RAILS_ENV=test
+- docker-compose run --rm web bin/rails db:migrate RAILS_ENV=test
 
 ###  seedデータの投入（不要）
 docker-compose run --rm web bin/rails db:seed_fu
