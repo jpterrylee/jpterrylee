@@ -22,6 +22,7 @@ docker-compose run --rm web yarn install --check-files
 
 ###  最初のセットアップ
 docker-compose build
+
 docker-compose run --rm web bin/setup
 
 ### もしtestDBがない場合は
