@@ -24,6 +24,9 @@ Install yarn: [yarn install]
 - docker-compose build
 - docker-compose run --rm web bin/setup
 
+## racc エラーの場合
+docker-compose run web gem install racc -v ‘1.6.0’ --source ‘https://rubygems.org/’
+
 
 ### もしtestDBがない場合は
 - docker-compose run --rm web bin/rails db:create RAILS_ENV=test
