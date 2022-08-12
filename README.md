@@ -57,3 +57,10 @@ docker-compose run --rm web bundle exec brakeman
 ### brakemanの実行
 docker-compose run --rm web bundle exec rails_best_practices -e node_modules
 ```
+
+vim 
+How to install on macOSX 10.14
+ho
+1. go to https://formulae.brew.sh/formula/vim to copy "brew install vim" paste to terminal and hit[enter]
+2. export PATH="/usr/local/bin:$PATH" > copy paste to terminal and hit [enter]
+
