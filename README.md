@@ -63,3 +63,14 @@ How to install on macOSX 10.14
 1. go to https://formulae.brew.sh/formula/vim to copy "brew install vim" paste to terminal and hit[enter]
 2. export PATH="/usr/local/bin:$PATH" > copy paste to terminal and hit [enter]
 
+
+```
+///////////
+
+How to install Typescript on mac
+sudo npm install -- global typescript
+
+uninstall:
+sudo npm uninstall --global typescript
+
+///////////
